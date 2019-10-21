@@ -9,4 +9,4 @@ This function will setup the environment for the relay operation.
 			msgIN.route("/1/push2", TestON);          Turn the relay on for a test
 			msgIN.route("/1/push3", TestOFF);         Turns the relay off for a test
 			msgIN.route("/1/btnsavetemps", SaveTemps); Saves currect settings for the control temperatures
-			/////////
+			///////////z
