@@ -61,13 +61,13 @@ void setup(void) {
 	pinMode(LIGHT, OUTPUT); //Declare Pin mode
 
 	WiFi.mode(WIFI_AP_STA);
-	delay(1000);
+	delay(110);
 	//
 	//  Start UDP server
 	//
 
 	Udp.begin(serverPort);
-	delay(1000);
+	//delay(1000);
 	OSCMsgReceive();
 
 	oscUpdateLabel("/1/label8", "Start UDP server");
@@ -133,7 +133,7 @@ void loop() {
 			oscUpdateLabel("/1/label8", "Light ON");
 		}
 	}
-	delay(2000);
+	
 
 }
 
